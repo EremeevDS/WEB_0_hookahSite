@@ -1,0 +1,60 @@
+.btn{
+   color: $text-white;
+   padding: 1.1rem 2.7rem;
+   font-size: 1.6rem;
+   border-radius: 5px;
+   text-decoration: none;
+   text-align: center;
+   white-space: nowrap;
+
+   &:hover{
+      cursor: pointer;
+   }
+
+   &--full{
+      width: 20rem;
+   }
+
+   &--sm{
+      font-size: 1.4rem;
+   }
+
+   &--green{
+      background: linear-gradient(90deg, #4CB8C4 0%, #3CD3AD 100%);
+
+      &:hover{
+         background: #3CD3AD;
+      }
+   }
+
+   &--blue{
+      background: linear-gradient(230.2deg, #00C6FF -29.4%, #0072FF 109.49%);
+
+      &:hover{
+         background: #00C6FF;
+      }
+   }
+}
+
+.btn__rent{
+   display: flex;
+   justify-content: space-between;
+   color: $text-white;
+   padding: .7rem 1.5rem;
+   font-size: 1.2rem;
+   line-height: 2.5rem;
+   font-weight: 500;
+   border-radius: 5px;
+   text-decoration: none;
+   white-space: nowrap;
+   background: linear-gradient(90deg, #4CB8C4 0%, #3CD3AD 100%);
+
+   &:hover{
+      cursor: pointer;
+      background: #3CD3AD;
+   }
+
+   &--left{
+      font-size: 1.4rem;
+   }
+}

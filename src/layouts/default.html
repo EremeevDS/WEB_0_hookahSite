@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{> head }}
+</head>
+<body>
+    <div class="page">
+        {{> header }}
+
+        {{> body }}
+
+        {{> footer }}
+    </div>
+    <div class="hystmodal" id="myModal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button data-hystclose class="hystmodal__close">Закрыть</button>
+                модалка
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/hystmodal.min.js"></script>
+    <script>
+        const myModal = new HystModal({
+        linkAttributeName: "data-hystmodal",
+        catchFocus: false,
+        });
+    </script>
+</body>
+</html>

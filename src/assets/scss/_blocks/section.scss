@@ -1,0 +1,82 @@
+.section__title{
+   font-size: 3.4rem;
+   font-weight: 800;
+   line-height: 2.5rem;
+   position: relative;
+   margin-bottom: 1rem;
+
+   &--shadow-1{
+
+      &::after{
+         content: 'ЧТО ВХОДИТ В КОМПЛЕКТ?';
+         position: absolute;
+         top: .5rem;
+         left: 0;
+
+         z-index: -3;
+         font-size: 3.8rem;
+         color: rgba(190, 229, 211, 0.5);
+         filter: blur(2px);
+      }
+   }
+
+   &--shadow-2{
+
+      &::after{
+         content: 'ПО ЖЕЛАНИЮ';
+         position: absolute;
+         top: .5rem;
+         left: 0;
+
+         z-index: -3;
+         font-size: 3.8rem;
+         color: rgba(190, 229, 211, 0.5);
+         filter: blur(2px);
+      }
+   }
+
+   &--shadow-3{
+
+      &::after{
+         content: 'ПОЧЕМУ СТОИТ ЗАКАЗЫВАТЬ У НАС?';
+         position: absolute;
+         top: .5rem;
+         left: 0;
+
+         z-index: -3;
+         font-size: 3.8rem;
+         color: rgba(190, 229, 211, 0.5);
+         filter: blur(2px);
+      }
+   }
+
+   &--shadow-4{
+
+      &::after{
+         content: 'КАК СДЕЛАТЬ ЗАКАЗ?';
+         position: absolute;
+         top: .5rem;
+         left: 0;
+
+         z-index: -3;
+         font-size: 3.8rem;
+         color: rgba(190, 229, 211, 0.5);
+         filter: blur(2px);
+      }
+   }
+
+   &--shadow-5{
+
+      &::after{
+         content: 'ВОПРОСЫ И ОТВЕТЫ';
+         position: absolute;
+         top: .5rem;
+         left: 0;
+
+         z-index: -3;
+         font-size: 3.8rem;
+         color: rgba(190, 229, 211, 0.5);
+         filter: blur(2px);
+      }
+   }
+}

@@ -1,0 +1,55 @@
+@import "reset";
+@import "_vars";
+
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $bg-white;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    color: $text-black;
+    font-family: -apple-system,BlinkMacSystemFont,
+        "Segoe UI",Roboto,"Helvetica Neue",Arial,
+        "Noto Sans",sans-serif,"Apple Color Emoji",
+        "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    &.show-sidebar .nav__menu{
+        display: block;
+    }
+    
+}
+
+a{
+    color: #0072FF;
+}
+
+h1{
+    font-size: 4.8rem;
+    line-height: 6rem;
+    font-weight: 500;
+    margin: 0 0 2rem 0;
+}
+
+.mb--1{
+    margin-bottom: 1rem;
+}
+
+
+@import  "_blocks/wrapper";
+@import  "_blocks/btn";
+@import  "_blocks/header";
+@import  "_blocks/nav";
+@import  "_blocks/description";
+@import  "_blocks/complectation";
+@import  "_blocks/section";
+@import  "_blocks/rent";
+@import  "_blocks/smoke";
+@import  "_blocks/advantages";
+@import  "_blocks/howtobuy";
+@import  "_blocks/questions";
+@import  "_blocks/footer";
+@import  "hystmodal.min";
+

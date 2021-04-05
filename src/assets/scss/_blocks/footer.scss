@@ -1,0 +1,60 @@
+footer{
+   background: $bg-black;
+   padding: 1rem 0;
+   color: $text-white
+}
+
+.footer__wrapper{
+   position: relative;
+   display: flex;
+}
+
+.footer__logo{
+   color: #fff;
+   text-decoration: none;
+
+   &--top{
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+   }
+
+   &--bottom{
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+   }
+}
+
+.footer__copyright{
+   position: absolute;
+   left: 30%;
+   
+   &--top{
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+   }
+
+   &--bottom{
+      font-size: 1.2rem;
+      line-height: 1rem;
+   }
+}
+
+.footer__madeby{
+   position: absolute;
+   right: 0;
+   top: 0;
+   color: #fff;
+   text-decoration: none;
+
+   &--top{
+      font-size: .9rem;
+      line-height: 1rem;
+   }
+
+   &--bottom{
+      font-size: 1.35rem;
+      line-height: 1.7rem;
+   }
+}

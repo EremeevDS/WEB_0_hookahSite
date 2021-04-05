@@ -1,0 +1,30 @@
+.questions__wrapper{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: $section-mb;
+}
+
+.questions__item{
+   background: rgba(0, 114, 255, 0.7);
+   border-radius: 5px;
+   margin-bottom: 1rem;
+
+   a{
+      color: $text-white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.6rem;
+      line-height: 2.5rem;
+      padding: 1.1rem 4.5rem;
+      display: block;
+
+      &:hover{
+         text-decoration: underline;
+      }
+   }
+
+   &:last-child{
+      margin-bottom: 0;
+   }
+
+}

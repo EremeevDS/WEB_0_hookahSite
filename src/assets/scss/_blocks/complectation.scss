@@ -1,0 +1,87 @@
+.complectation{
+   margin-bottom: $section-mb;
+}
+
+.complectation__wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 2rem;
+
+   &:last-child{
+      margin-bottom: 0;
+   }
+}
+
+.complectation__item{
+   height: 20rem;
+
+   border-radius: 1rem;
+   padding: 1.5rem;
+   margin: 0 1rem 1rem 0;
+
+   position: relative;
+   overflow: hidden;
+
+   color: $text-white;
+   font-size: 2.6rem;
+   line-height: 2.5rem;
+   font-weight: 800;
+   box-shadow: 0px 8px 15px 0px rgba($color: #000000, $alpha: 0.06);
+   transition: transform .2s ease;
+
+   &--first{
+      flex-basis: 20.7%;
+   }
+   &--second{
+      flex-basis: 29%;
+   }
+
+   &:hover{
+      transform: scale(1.025);
+      cursor: pointer;
+   }
+
+
+   &--1{
+      background: $complect-1;
+   }
+   &--2{
+      background: $complect-2;
+   }
+   &--3{
+      background: $complect-3;
+   }
+   &--4{
+      background: $complect-4;
+   }
+   &--5{
+      background: $complect-5;
+   }
+   &--6{
+      background: $complect-6;
+   }
+   &--7{
+      background: $complect-7;
+   }
+   &--2-1{
+      background: $complect-2-1;
+   }
+   &--2-2{
+      background: $complect-2-2;
+   }
+   &--2-3{
+      background: $complect-2-3;
+   }
+}
+
+.complectation__img{
+   position: absolute;
+   bottom: 0;
+   right: $item-img-m;
+
+   &--2{
+      position: absolute;
+      bottom: 0;
+      right: $item-img-m-2;
+   }
+}
