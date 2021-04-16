@@ -1,7 +1,13 @@
-header{
+#header__wr{
    height: 100vh;
    margin-bottom: $section-mb;
 }
+
+.header__complect{
+   background: linear-gradient(90deg, #4CB8C4 0%, #3CD3AD 100%);
+   margin-bottom: $section-mb;
+}
+
 .header{
    height: 60vh;
    min-height: 30rem;
@@ -81,4 +87,24 @@ header{
 .showing {
     opacity: 1;
     z-index: 2;
+}
+
+.header__cursor{
+   display: none;
+}
+
+.header__plane{
+   width: 90%;
+   height: 2.3rem;
+   border-radius: 1rem 1rem 0 0;
+   margin-left: 50%;
+   transform: translateX(-50%);
+
+   position: absolute;
+   bottom: -2px;
+   background-color: #fff;
+}
+
+.header__plane{
+   display: none;
 }

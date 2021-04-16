@@ -1,0 +1,21 @@
+input[type="text"], input[type="tel"] {
+   border: 1px solid rgba(26, 80, 139, 0.2);
+   border-radius: .5rem;
+   height: 4rem;
+   max-width: 18.5rem;
+   width: 100%;
+   margin-bottom: 1rem;
+   padding-left: 1.5rem;
+
+   outline: none;
+ }
+ input[type="text"]:focus, input[type="tel"]:focus {
+   border: 1px solid rgba(26, 80, 139, 1);
+ }
+ input[type="text"]::placeholder, input[type="tel"]::placeholder {
+   color: #B8B8BB;
+ }
+
+ button{
+   border: none;
+ }

@@ -6,6 +6,7 @@
    text-decoration: none;
    text-align: center;
    white-space: nowrap;
+   display: inline-block;
 
    &:hover{
       cursor: pointer;
@@ -13,6 +14,14 @@
 
    &--full{
       width: 20rem;
+   }
+
+   &--w141{
+      width: 14.1rem;
+   }
+
+   &--w100{
+      width: 100%;
    }
 
    &--sm{
@@ -55,6 +64,11 @@
    }
 
    &--left{
+      font-size: 1.4rem;
+   }
+
+   &--center{
+      margin: 0 auto;
       font-size: 1.4rem;
    }
 }

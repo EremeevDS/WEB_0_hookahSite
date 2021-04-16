@@ -11,22 +11,44 @@
 
         {{> footer }}
     </div>
-    <div class="hystmodal" id="myModal" aria-hidden="true">
-        <div class="hystmodal__wrap">
-            <div class="hystmodal__window" role="dialog" aria-modal="true">
-                <button data-hystclose class="hystmodal__close">Закрыть</button>
-                модалка
-            </div>
-        </div>
-    </div>
+    {{> modal_order}}
 
     <script src="assets/js/app.js"></script>
     <script src="assets/js/hystmodal.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         const myModal = new HystModal({
         linkAttributeName: "data-hystmodal",
         catchFocus: false,
         });
     </script>
+    <script>
+        var swiper = new Swiper('.swiper-container-rent', {
+          slidesPerView: 4,
+          centeredSlides: false,
+          slidesOffsetBefore: 100,
+          slidesOffsetAfter: 100,
+          spaceBetween: 30,
+
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 'auto',
+              spaceBetween: 30
+            }
+          }
+        });
+      </script>
 </body>
 </html>
