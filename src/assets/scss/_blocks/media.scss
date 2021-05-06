@@ -70,13 +70,7 @@
 
    .footer__wrapper{
       padding: 0 2rem;
-      display: block;
-   }
-
-   .footer__logo{
-      display: block;
-      margin-left: 50%;
-      transform: translateX(-50%);
+      justify-content: space-between;
    }
 
    .footer__copyright{
@@ -84,7 +78,11 @@
    }
 
    .footer__madeby{
-      position: unset;
+      display: none;
+
+      &Mob{
+         display: block;
+      }
    }
 
    .nav__brand{
@@ -186,6 +184,15 @@
       height: 28rem;
    }
 
+   .howtobuy__item{
+      width: auto;
+   }
+
+   .howtobuy__item--title{
+      position: relative;
+      font-size: 1.5rem;
+   }
+
    .howtobuy__wrapper{
       display: none;
    }
@@ -212,10 +219,34 @@
       transform: translateX(-50%);
    }
 
+   .section__title.section__title--shadow-4{
+      color: #fff;
+   }
+
+}
+
+@media (max-width: 425px) {
+   .footer__logo--bottom{
+      display: none;
+   }
+
+   .footer__copyright--bottom{
+      display: none;
+   }
 }
 
 @media (max-width: 359px) {
+
+   .footer__logo--top{
+      font-size: 1.3rem;
+   }
+
    .complectation__item--first {
       flex-basis: 100%;
   }
+
+  .howtobuy__item--title{
+   position: relative;
+   font-size: 1.2rem;
+   }
 }

@@ -57,4 +57,13 @@ footer{
       font-size: 1.35rem;
       line-height: 1.7rem;
    }
+
+   &Mob{
+      display: none;
+      width: 3rem;
+      border-radius: .1rem;
+      color: #FFF;
+      text-decoration: none;
+      text-align: center;
+   }
 }
