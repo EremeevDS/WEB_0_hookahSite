@@ -6,15 +6,46 @@
    background-color: rgba(0, 114, 255, 0.7);
    box-shadow: 0px 8px 15px 0px rgba($color: #000000, $alpha: 0.06);
    border-radius: 10px;
-   background-image: url(../images/complect_header.png);
 
    padding: 1.5rem;
    height: 18rem;
    margin-bottom: 2rem;
+   background-repeat: no-repeat;
 
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+
+   &--1{
+      background-image: url(../images/complect_header.png);
+   }
+   &--2{
+      background-image: url(../images/complect_header2.png);
+   }
+   &--3{
+      background-image: url(../images/complect_header3.png);
+   }
+   &--4{
+      background-image: url(../images/complect_header4.png);
+   }
+   &--5{
+      background-image: url(../images/complect_header5.png);
+   }
+   &--6{
+      background-image: url(../images/complect_header6.png);
+   }
+   &--7{
+      background-image: url(../images/complect_header7.png);
+   }
+   &--8{
+      background-image: url(../images/complect_header8.png);
+   }
+   &--9{
+      background-image: url(../images/complect_header9.png);
+   }
+   &--10{
+      background-image: url(../images/complect_header10.png);
+   }
 }
 
 .complectFull__header--title{

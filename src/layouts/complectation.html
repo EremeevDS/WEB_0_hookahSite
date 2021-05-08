@@ -28,5 +28,35 @@
         new SmartPhoto(".js-smartPhoto");
         });
       </script>
+      <script>
+        var swiper = new Swiper('.swiper-container-rent', {
+          slidesPerView: 4,
+          centeredSlides: false,
+          slidesOffsetBefore: 100,
+          slidesOffsetAfter: 100,
+          spaceBetween: 30,
+
+          breakpoints: {
+            200: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            },
+            720: {
+              slidesPerView: 4,
+              spaceBetween: 30
+            },
+          }
+        });
+      </script>
 </body>
 </html>

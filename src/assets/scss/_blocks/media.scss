@@ -46,6 +46,52 @@
    .complectation__img{
       right: -25%;
    }
+
+   .howtobuy__item{
+      width: auto;
+      padding: 2.7rem 1rem;
+   }
+
+   .howtobuy{
+      background: linear-gradient(90deg, #7474BF 0%, #348AC7 100%);
+      padding: 4rem 0;
+      position: relative;
+      height: 28rem;
+   }
+
+   .howtobuy__item--title{
+      position: relative;
+      font-size: 1.5rem;
+   }
+
+   .howtobuy__wrapper{
+      display: none;
+   }
+
+   .howtobuy__item--inviz{
+      display: none;
+   }
+
+   .howtobuy__road{
+      display: none;
+   }
+
+   .section__title.section__title--shadow-4{
+      color: #fff;
+   }
+
+   .complectFull__body{
+      flex-direction: column;
+   }
+
+   .complectFull__body--text{
+      max-width: 100%;
+      text-align: left;
+   }
+
+   .complectFull__body--photos{
+      max-width: 100%;
+   }
 }
 
 @media (max-width: 768px) {
@@ -177,37 +223,10 @@
       box-shadow: 0px 10px 20px 0px rgba($color: #000000, $alpha: 0.08);
    }
 
-   .howtobuy{
-      background: linear-gradient(90deg, #7474BF 0%, #348AC7 100%);
-      padding: 4rem 0;
-      position: relative;
-      height: 28rem;
-   }
-
-   .howtobuy__item{
-      width: auto;
-   }
-
-   .howtobuy__item--title{
-      position: relative;
-      font-size: 1.5rem;
-   }
-
-   .howtobuy__wrapper{
-      display: none;
-   }
-
-   .howtobuy__item--inviz{
-      display: none;
-   }
-
-   .howtobuy__road{
-      display: none;
-   }
-
    .questions__item{
       a{
          padding: 1.5rem  4.5rem;
+         font-size: 2rem;
       }
    }
 
@@ -219,8 +238,36 @@
       transform: translateX(-50%);
    }
 
-   .section__title.section__title--shadow-4{
-      color: #fff;
+   .questions__img{
+      max-width: 100%;
+   }
+
+   .complectFull__wrapper{
+      padding: 0 2rem;
+   }
+
+   .complectFull__body--text{
+      margin-bottom: 3rem;
+   }
+
+   .complectFull__header--link{
+      font-size: 1.8rem;
+      max-width: 21rem;
+      font-weight: 600;
+   }
+
+   .complectFull__header{
+      background-position: bottom;
+   }
+
+   .questionFull__wrapper{
+      padding: 0 2rem;
+   }
+
+   .questionFull__header--link{
+      font-size: 1.8rem;
+      max-width: 21rem;
+      font-weight: 600;
    }
 
 }
@@ -232,6 +279,11 @@
 
    .footer__copyright--bottom{
       display: none;
+   }
+
+   .complectFull__body--photo{
+      width: 100%;
+      height: 100%;
    }
 }
 
@@ -248,5 +300,13 @@
   .howtobuy__item--title{
    position: relative;
    font-size: 1.2rem;
+   }
+
+   .complectFull__wrapper{
+      padding: 0 1rem;
+   }
+
+   .questionFull__wrapper{
+      padding: 0 1rem;
    }
 }

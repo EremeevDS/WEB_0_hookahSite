@@ -825,6 +825,10 @@ nav {
     margin-bottom: 0;
 }
 
+.questions__img {
+    max-width: 40rem;
+}
+
 footer {
     background: #343434;
     padding: 1rem 0;
@@ -885,6 +889,15 @@ footer {
 .footer__madeby--bottom {
     font-size: 1.35rem;
     line-height: 1.7rem;
+}
+
+.footer__madebyMob {
+    display: none;
+    width: 3rem;
+    border-radius: .1rem;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
 }
 
 .hystmodal__opened, .hystmodal__shadow {
@@ -1161,7 +1174,6 @@ button {
     background-color: rgba(0, 114, 255, 0.7);
     box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
-    background-image: url(../images/complect_header.png);
     padding: 1.5rem;
     height: 18rem;
     margin-bottom: 2rem;
@@ -1171,6 +1183,46 @@ button {
     flex-direction: column;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.complectFull__header--1 {
+    background-image: url(../images/complect_header.png);
+}
+
+.complectFull__header--2 {
+    background-image: url(../images/complect_header2.png);
+}
+
+.complectFull__header--3 {
+    background-image: url(../images/complect_header3.png);
+}
+
+.complectFull__header--4 {
+    background-image: url(../images/complect_header4.png);
+}
+
+.complectFull__header--5 {
+    background-image: url(../images/complect_header5.png);
+}
+
+.complectFull__header--6 {
+    background-image: url(../images/complect_header6.png);
+}
+
+.complectFull__header--7 {
+    background-image: url(../images/complect_header7.png);
+}
+
+.complectFull__header--8 {
+    background-image: url(../images/complect_header8.png);
+}
+
+.complectFull__header--9 {
+    background-image: url(../images/complect_header9.png);
+}
+
+.complectFull__header--10 {
+    background-image: url(../images/complect_header10.png);
 }
 
 .complectFull__header--title {
@@ -1363,6 +1415,53 @@ button {
     .complectation__img {
         right: -25%;
     }
+
+    .howtobuy__item {
+        width: auto;
+        padding: 2.7rem 1rem;
+    }
+
+    .howtobuy {
+        background: linear-gradient(90deg, #7474BF 0%, #348AC7 100%);
+        padding: 4rem 0;
+        position: relative;
+        height: 28rem;
+    }
+
+    .howtobuy__item--title {
+        position: relative;
+        font-size: 1.5rem;
+    }
+
+    .howtobuy__wrapper {
+        display: none;
+    }
+
+    .howtobuy__item--inviz {
+        display: none;
+    }
+
+    .howtobuy__road {
+        display: none;
+    }
+
+    .section__title.section__title--shadow-4 {
+        color: #fff;
+    }
+
+    .complectFull__body {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .complectFull__body--text {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .complectFull__body--photos {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1388,14 +1487,8 @@ button {
 
     .footer__wrapper {
         padding: 0 2rem;
-        display: block;
-    }
-
-    .footer__logo {
-        display: block;
-        margin-left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 
     .footer__copyright {
@@ -1403,7 +1496,11 @@ button {
     }
 
     .footer__madeby {
-        position: unset;
+        display: none;
+    }
+
+    .footer__madebyMob {
+        display: block;
     }
 
     .nav__brand {
@@ -1507,25 +1604,6 @@ button {
         box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
     }
 
-    .howtobuy {
-        background: linear-gradient(90deg, #7474BF 0%, #348AC7 100%);
-        padding: 4rem 0;
-        position: relative;
-        height: 28rem;
-    }
-
-    .howtobuy__wrapper {
-        display: none;
-    }
-
-    .howtobuy__item--inviz {
-        display: none;
-    }
-
-    .howtobuy__road {
-        display: none;
-    }
-
     .questions__item a {
         padding: 1.5rem  4.5rem;
     }
@@ -1540,9 +1618,28 @@ button {
     }
 }
 
+@media (max-width: 425px) {
+    .footer__logo--bottom {
+        display: none;
+    }
+
+    .footer__copyright--bottom {
+        display: none;
+    }
+}
+
 @media (max-width: 359px) {
+    .footer__logo--top {
+        font-size: 1.3rem;
+    }
+
     .complectation__item--first {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+    }
+
+    .howtobuy__item--title {
+        position: relative;
+        font-size: 1.2rem;
     }
 }
