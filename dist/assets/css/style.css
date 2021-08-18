@@ -1177,6 +1177,7 @@ button {
     padding: 1.5rem;
     height: 18rem;
     margin-bottom: 2rem;
+    background-repeat: no-repeat;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1606,6 +1607,7 @@ button {
 
     .questions__item a {
         padding: 1.5rem  4.5rem;
+        font-size: 2rem;
     }
 
     .header__cursor {
@@ -1616,6 +1618,38 @@ button {
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
     }
+
+    .questions__img {
+        max-width: 100%;
+    }
+
+    .complectFull__wrapper {
+        padding: 0 2rem;
+    }
+
+    .complectFull__body--text {
+        margin-bottom: 3rem;
+    }
+
+    .complectFull__header--link {
+        font-size: 1.8rem;
+        max-width: 21rem;
+        font-weight: 600;
+    }
+
+    .complectFull__header {
+        background-position: bottom;
+    }
+
+    .questionFull__wrapper {
+        padding: 0 2rem;
+    }
+
+    .questionFull__header--link {
+        font-size: 1.8rem;
+        max-width: 21rem;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 425px) {
@@ -1625,6 +1659,11 @@ button {
 
     .footer__copyright--bottom {
         display: none;
+    }
+
+    .complectFull__body--photo {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -1641,5 +1680,13 @@ button {
     .howtobuy__item--title {
         position: relative;
         font-size: 1.2rem;
+    }
+
+    .complectFull__wrapper {
+        padding: 0 1rem;
+    }
+
+    .questionFull__wrapper {
+        padding: 0 1rem;
     }
 }
